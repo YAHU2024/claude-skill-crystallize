@@ -1,4 +1,5 @@
 ---
+name: crystallize
 description: 【全局技能】深度复盘当前对话的解题路径、失败尝试与影响范围，追加沉淀到当前项目的 docs/THOUGHTS.md 中。
 disable-model-invocation: false
 ---
