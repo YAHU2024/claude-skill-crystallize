@@ -1,5 +1,8 @@
 # 🚀 Claude Code: Advanced Crystallize Skill
 
+[![中文](https://img.shields.io/badge/lang-中文-red.svg)](README.md)
+[![English](https://img.shields.io/badge/lang-English-blue.svg)](README.en.md)
+
 一个专为 **Claude Code (Anthropic CLI)** 打造的全局高级智能体技能。
 
 当你在对话中攻克硬核 Bug、完成重构或重置环境配置后，该技能能够帮你**深度复盘解题路径、记录失败尝试、圈定波及模块**，并以极度整洁的 `<details>` 格式追加沉淀到项目的 `docs/THOUGHTS.md` 中。
