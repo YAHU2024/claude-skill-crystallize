@@ -19,7 +19,7 @@
 在你的终端中克隆仓库并运行安装脚本：
 
 ```bash
-git clone [https://github.com/你的用户名/claude-skill-crystallize.git](https://github.com/你的用户名/claude-skill-crystallize.git)
+git clone https://github.com/Yahu2025/claude-skill-crystallize.git
 cd claude-skill-crystallize
 chmod +x install.sh
 ./install.sh
@@ -49,5 +49,5 @@ Bash
 
 ## 📄 开源协议
 
-[MIT License](https://www.google.com/search?q=LICENSE)
+[MIT License](LICENSE)
 

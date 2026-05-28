@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # 定义高亮颜色
 GREEN='\033[0;32m'
