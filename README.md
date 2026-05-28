@@ -51,4 +51,3 @@ Bash
 
 [MIT License](https://www.google.com/search?q=LICENSE)
 
-```
