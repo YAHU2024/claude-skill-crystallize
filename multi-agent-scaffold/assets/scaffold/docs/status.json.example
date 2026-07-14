@@ -1,0 +1,23 @@
+{
+  "tasks": [
+    {
+      "id": "T1",
+      "title": "示例任务：实现 X",
+      "status": "pending",
+      "attempts": 0,
+      "plan_ref": "docs/PLAN.md",
+      "notes": ""
+    },
+    {
+      "id": "__ENV_EXAMPLE__",
+      "title": "示例：因缺模型/cookie 暂阻塞的任务（演示 env-blocked 状态）",
+      "status": "env-blocked",
+      "attempts": 0,
+      "plan_ref": "docs/PLAN.md",
+      "notes": "env 重试计数，不计入失败预算；环境就绪后下次唤起自动重试"
+    }
+  ],
+  "budget_remaining": 50,
+  "circuit_breaker": false,
+  "last_task_id": null
+}

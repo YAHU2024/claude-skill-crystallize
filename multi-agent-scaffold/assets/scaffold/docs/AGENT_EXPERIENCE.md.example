@@ -1,0 +1,27 @@
+# AGENT_EXPERIENCE — 多智能体协同经验账本（原始层）
+
+> 两层结构，避免主调度整篇重读导致上下文膨胀：
+> - 顶部「经验索引」块：单行压缩列表（role·task-id·一句话），由主调度在任务通过时维护、上限 20 条。主调度只读这一小块（前 ~40 行）。
+> - 底部「经验记录」：完整结构化条目，由各子智能体追加。仅按需按 task-id Grep。
+> 定期由 /crystallize-experience 蒸馏进 docs/THOUGHTS.md，并归档超限索引。
+
+## 经验索引（主调度维护，最多 20 条；超出由 crystallize-experience 归档）
+<!-- INDEX-START -->
+<!-- INDEX-END -->
+
+---
+
+## 记录模板（复制并填写，追加到文件末尾）
+### <日期> · <role> · <task-id>
+- 上下文: 在做什么 / 输入是什么
+- 做法: 关键决策或实现方式
+- 结果: PASS / FAIL / 挂起，修复轮次
+- 经验: 可复用规律、踩坑与根因、下次的规避方式
+- 关联: 相关文件路径 / 任务 ID / 约束
+
+角色取值：planning / dev / test-function / test-security / test-integration
+蒸馏后标 [已蒸馏 <日期>]，不删原文。
+
+---
+
+<!-- 经验记录从这里开始追加 -->

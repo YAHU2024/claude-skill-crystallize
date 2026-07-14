@@ -1,0 +1,82 @@
+[
+  {
+    "query": "帮我在当前项目里搭一套多智能体协同开发的脚手架，主调度加几个子 agent 那种",
+    "should_trigger": true
+  },
+  {
+    "query": "我想把大任务拆给多个子 agent 并行开发和测试，应该怎么搭工作流",
+    "should_trigger": true
+  },
+  {
+    "query": "set up an agent team in Claude Code: a master orchestrator that dispatches coding tasks to subagents",
+    "should_trigger": true
+  },
+  {
+    "query": "我这个项目太大了，主会话上下文老爆，想用子智能体分流开发任务",
+    "should_trigger": true
+  },
+  {
+    "query": "做一个无人值守的开发流水线吧，睡前丢需求，定时反复唤起，早上收报告",
+    "should_trigger": true
+  },
+  {
+    "query": "搭建多 agent 协作工作流，把 planning / dev / test 拆成不同角色",
+    "should_trigger": true
+  },
+  {
+    "query": "create a claude code skill that scaffolds a multi-agent development setup with parallel testers",
+    "should_trigger": true
+  },
+  {
+    "query": "让多个 agent 并行做功能、安全、集成三个维度的测试验收，主调度汇总",
+    "should_trigger": true
+  },
+  {
+    "query": "我想搞一个可以断点续跑的长跑开发系统，状态机存在文件里",
+    "should_trigger": true
+  },
+  {
+    "query": "make a master agent plus five subagents scaffold for my repo and wire up a loop driver",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我写一个 Python 函数算斐波那契数列",
+    "should_trigger": false
+  },
+  {
+    "query": "怎么用 Claude Agent SDK 写一个自定义的 agent 类",
+    "should_trigger": false
+  },
+  {
+    "query": "read this PDF and give me a summary of the key points",
+    "should_trigger": false
+  },
+  {
+    "query": "我要做一个前端 dashboard 展示团队的核心指标",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我 review 一下这个 PR 的代码改动",
+    "should_trigger": false
+  },
+  {
+    "query": "配置一下我的 settings.json，给某些命令加权限",
+    "should_trigger": false
+  },
+  {
+    "query": "怎么用 loop skill 每 10 分钟定时跑一个命令",
+    "should_trigger": false
+  },
+  {
+    "query": "我想用 Celery 给后端搭一个后台任务队列和 worker",
+    "should_trigger": false
+  },
+  {
+    "query": "给我写个单元测试，测一下我的字幕解析函数",
+    "should_trigger": false
+  },
+  {
+    "query": "教我一下 Claude Code 的 subagents 是怎么用的",
+    "should_trigger": false
+  }
+]
